@@ -1,0 +1,16 @@
+Ejercicio 1: Expresiones regulares
+
+Matrículas válidas:
+
+LV-QWE
+LQ-ABE
+LV-X443
+LV-S586
+LV-SX334
+
+Matrículas inválidas:
+
+LA-123
+LX-ABC
+LV
+LV-344
