@@ -14,3 +14,5 @@ LA-123
 LX-ABC
 LV
 LV-344
+
+Respuesta: ^L\w\W?\w?\w?\w?\w?\w?
