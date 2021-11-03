@@ -1,53 +1,65 @@
-#Ejercicio 1: Expresiones regulares
+# Ejercicio 1: Expresiones regulares
 
-#Matrículas válidas:
+# Matrículas válidas:
 
-#LV-QWE
-#LQ-ABE
-#LV-X443
-#LV-S586
-#LV-SX334
+# LV-QWE
+# LQ-ABE
+# LV-X443
+# LV-S586
+# LV-SX334
 
-#Matrículas inválidas:
+# Matrículas inválidas:
 
-#LA-123
-#LX-ABC
-#LV
-#LV-344
+# LA-123
+# LX-ABC
+# LV
+# LV-344
 
-#Respuesta: ^L\w\W?\w?\w?\w?\w?\w?
+# Respuesta: ^L\w\W?\w?\w?\w?\w?\w?
 
-#Ejercicio 2: Expresiones regulares
+# Ejercicio 2: Expresiones regulares
 
-#1901
-#1900
-#1850
-#500
-#12
-#2
+# 1901
+# 1900
+# 1850
+# 500
+# 12
+# 2
 
-#Respuesta: ^((1900)|(1[0-8][0-9]{2})|([1-9][0-9]{2})|([1-9][0-9]{1})|([1-9]))$
+# Respuesta: ^((1900)|(1[0-8][0-9]{2})|([1-9][0-9]{2})|([1-9][0-9]{1})|([1-9]))$
 
-#Ejercicio 3: Recursión
-#punto 1: MAL
+# Ejercicio 3: Recursión (MAL HECHO, SIN HACER)
+# punto 1: MAL
 
-def RecursionUnoyDos(numero):
-    i = 0
-    recurlist = []
-    listnum = [int(a) for a in str(numero)]
-    if listnum[i] % 2 == 0:
-        recurlist.append(1)
-        i = i + 1
-        print(recurlist)
-    elif listnum[i] % 2 != 0:
-        recurlist.append(2)
-        i = i + 1
-        RecursionUnoyDos(numero)
-
-
-print(RecursionUnoyDos(153454))
-
-#Punto 2:
+#def RecursionUnoyDos(numero):
+#    i = 0
+#    recurlist = []
+#    listnum = [int( a ) for a in str( numero )]
+#    if listnum[i] % 2 == 0:
+#        recurlist.append( 1 )
+#        i = i + 1
+#        print( recurlist )
+#    elif listnum[i] % 2 != 0:
+#        recurlist.append( 2 )
+#        i = i + 1
+#        RecursionUnoyDos( numero )
 
 
+#print( RecursionUnoyDos( 153454 ) )
 
+
+# Punto 2:
+
+#a = []
+
+#def listadelistas(listas):
+#    for i in listas:
+#        if type(i) == list:
+#            listadelistas(i)
+#
+#        else:
+#            a.append(i)
+
+#l = [1, 2, 3], [4, 5, 6], [7], [8]
+
+#print(listadelistas(l))
